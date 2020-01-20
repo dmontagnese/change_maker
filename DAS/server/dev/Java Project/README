@@ -1,0 +1,7 @@
+The server is implemented in java version "1.8.0_101"
+
+The IDE used is the 'Spring Tool Suite'. The ChangeMaker directory is the
+project.
+
+The supporting jar files are obtained using maven.
+

@@ -1,0 +1,48 @@
+#coin_counts_container {
+	margin: 1vh auto;
+	width: 98vw;
+	height: 87%;
+	text-align: center;
+}
+
+#coin_counts {
+	height: 10%;
+	text-align: center;
+}
+
+#coin_counts_content {
+	width: 100%;
+	height: 84%;
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+}
+
+#coin_count_table {
+	width: 100%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+#top_row td {
+	font-weight: bold;
+}
+
+#coin_count_table td {
+	border: 1px solid black;
+	width: 11.5vw;
+	max-width: 11.5vw;
+	min-width: 11.5vw;
+	text_align: center;
+}
+
+#coin_count_table tr {
+	width: 96vw;
+	max-width: 96vw;
+	min-width: 96vw;
+}
+
+#server_response {
+	width: 98vw;
+	text-align: center;
+	font-size: 70%;
+}

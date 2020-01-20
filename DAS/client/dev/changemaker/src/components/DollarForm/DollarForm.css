@@ -1,0 +1,19 @@
+#dollar_container {
+	margin: auto;
+	width: 75vw;
+	height: 10vh;
+	text-align: center;
+}
+
+#dollar_container {
+	margin: auto;
+	width: 50vw;
+}
+
+#dollar_input {
+	width: 10%;
+}
+
+#get_change_button {
+	margin-left: 10px;
+}

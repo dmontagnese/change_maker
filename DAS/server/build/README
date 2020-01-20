@@ -1,0 +1,2 @@
+To deploy, copy the ChangeMaker.war file to the webapps directory of the
+Apache Tomcat installation.

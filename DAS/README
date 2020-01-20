@@ -1,0 +1,15 @@
+The web interface, client, and the server are implemented separately.
+The application was tested where the client was run on Apache/2.2.15 (Unix)
+and the server on apache-tomcat-8.0.33.
+
+The server side is implemented in java using Spring Boot, JPA, Hibernate
+and the H2 in-memory database. The database and ORM are used to demonstrate
+caching.
+
+The IDE is 'Spring Tool Suite'.
+
+The client side is implemented in ReactJS.
+
+Dollar values are entered and the 'Get Change' but is clicked to request 
+an object from the server containing coin counts corresponding to the
+dollar amount. The counts are displayed in a table with no duplicates.
