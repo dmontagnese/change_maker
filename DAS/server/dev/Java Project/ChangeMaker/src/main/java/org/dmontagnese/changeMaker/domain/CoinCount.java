@@ -1,7 +1,3 @@
-/**
- * A bean that is instantiated and returned to the client containing the computed values
- * appropriate to a dollar_amount
- */
 package org.dmontagnese.changeMaker.domain;
 
 import java.util.Calendar;
@@ -14,6 +10,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
+ * A bean that is instantiated and returned to the client containing the
+ * computed values appropriate to a dollar_amount
+ * 
  * The class is an ORM Entity ( Hibernate ) that, along with being returned to
  * the client, is cached in the database
  */

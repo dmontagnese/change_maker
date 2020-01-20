@@ -1,8 +1,3 @@
-/**
- * Repository uses the Hibernate ORM and the in-memory H2 database
- * The connect configuration, including pool size, is in the 'application.properties' file
- */
-
 package org.dmontagnese.changeMaker.repository;
 
 import java.util.Calendar;
@@ -15,6 +10,9 @@ import org.springframework.stereotype.Repository;
 
 /**
  * interface that extends JpaRepository, inheriting all of its methods
+ * 
+ * Repository uses the Hibernate ORM and the in-memory H2 database The connect
+ * configuration, including pool size, is in the 'application.properties' file
  */
 @Repository
 public interface CoinCountRepository extends JpaRepository<CoinCount, Long> {

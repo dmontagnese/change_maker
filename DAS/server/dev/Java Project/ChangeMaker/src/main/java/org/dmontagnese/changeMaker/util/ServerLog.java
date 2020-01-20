@@ -1,4 +1,3 @@
-
 package org.dmontagnese.changeMaker.util;
 
 import org.apache.logging.log4j.LogManager;
@@ -8,6 +7,9 @@ import org.apache.logging.log4j.LogManager;
  */
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Logs to the catalina.out file in the Tomcat installation logs directory
+ */
 public class ServerLog {
 
 	private static final String LOG_NAME = "ChangeMaker";

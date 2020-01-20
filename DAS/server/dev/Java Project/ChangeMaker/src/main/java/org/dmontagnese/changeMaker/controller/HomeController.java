@@ -1,9 +1,3 @@
-/**
- * The controller that handles HTTP requests
- * 
- * @author Dan Montagnese dmontagnese@gmail.com
- */
-
 package org.dmontagnese.changeMaker.controller;
 
 import java.io.IOException;
@@ -21,13 +15,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import static org.dmontagnese.changeMaker.util.ServerLog.serverLog;
 
+/**
+ * The controller that handles HTTP requests
+ * 
+ * @author Dan Montagnese dmontagnese@gmail.com
+ */
 @Controller
 public class HomeController {
 
 	/**
 	 * Constructor that sets the className for use in logging
 	 */
-
 	public HomeController() {
 		this.className = this.getClass().getName();
 	}
@@ -49,7 +47,6 @@ public class HomeController {
 	 *            - used to send an error message back to the client
 	 * 
 	 * @return CoinCount object ( as JSON ) computed from the dollar_amount
-	 * 
 	 *         argument
 	 */
 	@GetMapping("/getChange")

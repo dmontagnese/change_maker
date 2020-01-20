@@ -1,7 +1,3 @@
-/**
- * Performs the coin count calculations to instantiate CoinCount object and manages caching
- */
-
 package org.dmontagnese.changeMaker.serviceImpl;
 
 import static org.dmontagnese.changeMaker.util.ServerLog.serverLog;
@@ -15,7 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * The Service methods are called by the Controller and the service calls
+ * Performs the coin count calculations to instantiate a CoinCount object and
+ * manages caching
+ * 
+ * The Service methods are called by the Controller and the Service calls
  * methods in the Repository
  */
 @Service
@@ -102,8 +101,7 @@ public class ChangeServiceImpl implements ChangeService {
 			} else {
 				coinCount = cached;
 				// Update the last access time of the object retrieved from
-				// cache so
-				// that it is not deleted when the cache is truncated
+				// cache so that it is not deleted when the cache is truncated
 				cached.setLast_access_time(Calendar.getInstance());
 				serverLog.info(
 						String.format("%s: using cached record for dollar_amount %2.2f", className, dollar_amount));
