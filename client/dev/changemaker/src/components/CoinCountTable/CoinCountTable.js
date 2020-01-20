@@ -10,15 +10,15 @@ class CoinCountTable extends PureComponent {
 		);
 
 		var coin_count_map = formatted_list.map (( c ) => 
-			<tr key={list_key++}>
-				<td>{c.dollar_amount}</td>
-				<td>{c.silver_dollar}</td>
-				<td>{c.half_dollar}</td>
-				<td>{c.quarter}</td>
-				<td>{c.dime}</td>
-				<td>{c.nickel}</td>
-				<td>{c.penny}</td>
-				<td>{c.total_coin_count}</td>
+			<tr className="row"  key={list_key++}>
+				<td>{c.dollar_amount}&nbsp;&nbsp;</td>
+				<td>{c.silver_dollar}&nbsp;&nbsp;</td>
+				<td>{c.half_dollar}&nbsp;&nbsp;</td>
+				<td>{c.quarter}&nbsp;&nbsp;</td>
+				<td>{c.dime}&nbsp;&nbsp;</td>
+				<td>{c.nickel}&nbsp;&nbsp;</td>
+				<td>{c.penny}&nbsp;&nbsp;</td>
+				<td>{c.total_coin_count}&nbsp;&nbsp;</td>
 			</tr>
 		);
 

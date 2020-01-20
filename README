@@ -1,6 +1,6 @@
 The web interface, client, and the server are implemented separately.
 The application was tested where the client was run on Apache/2.2.15 (Unix)
-and the server on apache-tomcat-8.0.33.
+and the server on apache-tomcat-7.0.33. Both run on the same host.
 
 The server side is implemented in java using Spring Boot, JPA, Hibernate
 and the H2 in-memory database. The database and ORM are used to demonstrate
