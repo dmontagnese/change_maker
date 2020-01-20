@@ -5,3 +5,5 @@ project.
 
 The supporting jar files are obtained using maven.
 
+See the javadoc documentation in the doc directory.
+
